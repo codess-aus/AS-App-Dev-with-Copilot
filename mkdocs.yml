@@ -48,7 +48,8 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Introduction: 00-intro.md
+  - Home: index.md
+  - Introduction: intro.md
   - Generate Documentation: 01-gendocs.md
   - Develop Code: 02-devcode.md
   - Unit Tests: 03-unittests.md

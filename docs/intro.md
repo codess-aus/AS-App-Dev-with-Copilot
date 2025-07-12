@@ -8,9 +8,9 @@ AI tools are the GOAT for coding rn. GitHub, OpenAI, and Microsoft dropped some 
 
 ---
 
-## 🧠 What’s in This Unit?
+## 🧠 What's in This Unit?
 
-We’re vibing with these tools:
+We're vibing with these tools:
 
 - Azure AI Services  
 - Azure AI Foundry Portal  
@@ -28,7 +28,7 @@ We’re vibing with these tools:
 Cloud-based AI magic. No ML degree needed. Handles speech, vision, NLP, and decision stuff. Plug it into your app and boom—smarter UX.
 
 ### 🔧 Use it if:
-- You want AI but don’t wanna build models from scratch.
+- You want AI but don't wanna build models from scratch.
 - You need quick AI features like speech or image stuff.
 
 ---
@@ -39,7 +39,7 @@ Drag-n-drop ML builder. No code, no stress. Works with TensorFlow & PyTorch. Bui
 
 ### 🔧 Use it if:
 - You wanna play with ML models without writing code.
-- You’re a data nerd or dev who wants easy AI tools.
+- You're a data nerd or dev who wants easy AI tools.
 
 ---
 
@@ -48,14 +48,14 @@ Drag-n-drop ML builder. No code, no stress. Works with TensorFlow & PyTorch. Bui
 Part of Power Platform. Add AI to apps with zero data science skills. Prebuilt models + custom ones = win.
 
 ### 🔧 Use it if:
-- You’re a biz analyst or citizen dev.
+- You're a biz analyst or citizen dev.
 - You wanna automate stuff like form reading or predictions.
 
 ---
 
 ## 🤖 Copilot Studio
 
-Make chatbots that actually get you. No devs needed. Design convos, train bots, and track how they’re doing.
+Make chatbots that actually get you. No devs needed. Design convos, train bots, and track how they're doing.
 
 ### 🔧 Use it for:
 - Customer support, FAQs, health info, HR stuff.
@@ -68,7 +68,7 @@ Make chatbots that actually get you. No devs needed. Design convos, train bots, 
 Wanna mix AI with your own code? This SDK is your BFF. Use OpenAI, Azure, Hugging Face, etc. Build agents that do real work.
 
 ### 🔧 Use it if:
-- You’re coding in C#, Python, or Java.
+- You're coding in C#, Python, or Java.
 - You want AI to actually *do* things in your app.
 
 ---
@@ -85,11 +85,11 @@ Smart code helper in VS. Learns from tons of repos. Suggests code, helps refacto
 
 ## 💬 ChatGPT
 
-Talk to AI like it’s your dev buddy. Great for ideas, debugging, and learning. Not perfect for coding, but solid for brainstorming.
+Talk to AI like it's your dev buddy. Great for ideas, debugging, and learning. Not perfect for coding, but solid for brainstorming.
 
 ### 🔧 Use it if:
 - You need help understanding stuff.
-- You’re building chatbots or assistants.
+- You're building chatbots or assistants.
 
 ---
 
@@ -105,9 +105,9 @@ Your AI coding sidekick. Writes code, explains it, fixes bugs, and even makes te
 
 ## 🧠 TL;DR
 
-AI tools = dev superpowers. Whether you’re a pro or just starting, these tools make coding faster, smarter, and way more fun. Pick your tool, level up, and let AI do the heavy lifting. 💪
+AI tools = dev superpowers. Whether you're a pro or just starting, these tools make coding faster, smarter, and way more fun. Pick your tool, level up, and let AI do the heavy lifting. 💪
 
-# 🤖💥 GitHub Copilot Plans: Which One’s Your Coding Sidekick?
+# 🤖💥 GitHub Copilot Plans: Which One's Your Coding Sidekick?
 
 ## 🚀 Why Copilot Is a Game-Changer
 
@@ -244,13 +244,13 @@ Works with:
 
 ## 🧠 TL;DR
 
-GitHub Copilot’s got a plan for everyone—from solo devs to mega enterprises. Pick the one that fits your vibe, your team, and your coding goals. 💻✨
+GitHub Copilot's got a plan for everyone—from solo devs to mega enterprises. Pick the one that fits your vibe, your team, and your coding goals. 💻✨
 
-# 🧠⚡ GitHub Copilot Features: What’s Hot & What’s Dropping
+# 🧠⚡ GitHub Copilot Features: What's Hot & What's Dropping
 
 ## 🚀 Copilot = Your AI Coding Sidekick
 
-GitHub Copilot’s got a growing list of features for solo devs and orgs. Some are 🔒 exclusive, others are 🔓 public preview. What you get depends on your plan.
+GitHub Copilot's got a growing list of features for solo devs and orgs. Some are 🔒 exclusive, others are 🔓 public preview. What you get depends on your plan.
 
 ---
 
@@ -258,7 +258,7 @@ GitHub Copilot’s got a growing list of features for solo devs and orgs. Some a
 
 ### ✨ Code Completion
 - Autocomplete vibes in VS Code, Visual Studio, JetBrains, Azure Data Studio, Xcode, Vim/Neovim, Eclipse.
-- In VS Code: “Next edit suggestions” predict your next move and help you code faster.
+- In VS Code: "Next edit suggestions" predict your next move and help you code faster.
 
 ---
 
@@ -273,7 +273,7 @@ GitHub Copilot’s got a growing list of features for solo devs and orgs. Some a
 Edit across files from one chat prompt.
 
 - **Edit Mode**: You control the files, context, and edits.
-- **Agent Mode**: Copilot takes the wheel, edits code, runs terminal commands, and fixes stuff until the task’s done. (Only in VS Code)
+- **Agent Mode**: Copilot takes the wheel, edits code, runs terminal commands, and fixes stuff until the task's done. (Only in VS Code)
 
 ---
 
@@ -309,7 +309,7 @@ Create doc collections to use as context in Copilot Chat. Ask smarter questions 
 
 ## 🧠 TL;DR
 
-Copilot’s stacked with features to level up your coding game. From smart suggestions to full-on AI agents, it’s built to boost your dev flow. What you get depends on your plan, but even the basics are 🔥.
+Copilot's stacked with features to level up your coding game. From smart suggestions to full-on AI agents, it's built to boost your dev flow. What you get depends on your plan, but even the basics are 🔥.
 
 # ⚙️🧠 GitHub Copilot Setup: Get Your AI Coding Buddy Online
 
@@ -391,10 +391,10 @@ Copilot works in:
 ## 🆓 Copilot Free Access
 
 ### 🚫 Not Available If:
-- You’re a managed user  
-- You’re assigned via org  
+- You're a managed user  
+- You're assigned via org  
 - You already have Pro/Pro+ or trial  
-- You’re using a free Pro plan as a student/teacher/maintainer  
+- You're using a free Pro plan as a student/teacher/maintainer  
 
 ### ✅ How to Start:
 - **VS Code / Visual Studio**: Sign up from the editor  
@@ -409,13 +409,13 @@ Copilot works in:
 Copilot setup = easy mode.  
 Solo devs: pick a plan, install, tweak settings.  
 Orgs: subscribe, set policies, roll it out smart.  
-Copilot’s ready to code with you. 💻🔥
+Copilot's ready to code with you. 💻🔥
 
 # ⚙️🧠 GitHub Copilot in VS Code: Setup & Settings
 
 ---
 
-## 🚀 What’s the Deal?
+## 🚀 What's the Deal?
 
 Copilot plugs straight into VS Code, Visual Studio, and other IDEs. In VS Code, it uses **two extensions**:
 
@@ -429,13 +429,13 @@ Copilot plugs straight into VS Code, Visual Studio, and other IDEs. In VS Code, 
 No manual install needed—Copilot extensions auto-install with default settings.
 
 ### 🛠️ Steps:
-1. Open VS Code (make sure it’s updated)
+1. Open VS Code (make sure it's updated)
 2. Hover over the Copilot icon in the Status Bar → click **Set up Copilot**
 
 ![status bar](assets/setup-copilot-status-bar.png)
 
 3. Hit **Sign in** to log into GitHub  
-   - Already signed in? You’ll see **Use Copilot** instead  
+   - Already signed in? You'll see **Use Copilot** instead  
 4. Follow the prompts to authenticate + authorize  
 5. Boom! Extensions install in the background  
 
@@ -473,14 +473,14 @@ Let AI help you code smarter, faster, better. 💻🔥
 
 ## 🚀 What You Can Control
 
-If you're flying solo (not in an org plan), you’ve got full control over your Copilot setup. You can:
+If you're flying solo (not in an org plan), you've got full control over your Copilot setup. You can:
 
 - Manage your plan  
 - Tweak your settings  
 - Add extensions  
 - Control privacy & features  
 
-> ⚠️ If you’re part of an org with Copilot Business/Enterprise, some settings might be locked. Talk to your account manager.
+> ⚠️ If you're part of an org with Copilot Business/Enterprise, some settings might be locked. Talk to your account manager.
 
 ---
 
@@ -495,13 +495,13 @@ If you're flying solo (not in an org plan), you’ve got full control over your 
 ### 🔐 Privacy Settings:
 - **Block public code matches**  
   - Copilot checks ~150 chars of your code against public GitHub code  
-  - If matched, it won’t show the suggestion  
+  - If matched, it won't show the suggestion  
 - **Allow public code matches**  
   - See match details + repo links  
 - **Prompt/Suggestion Collection**  
   - Opt in/out of GitHub using your snippets for product improvements  
 - **Model Training**  
-  - Your data won’t be used for training—this is locked off by default  
+  - Your data won't be used for training—this is locked off by default  
 
 ---
 
@@ -510,7 +510,7 @@ If you're flying solo (not in an org plan), you’ve got full control over your 
 ### 🔌 Copilot Extensions:
 - Add extra tools via GitHub Marketplace  
 - Must have Copilot Free, Pro, or Pro+ to use  
-- Org users don’t need to install—admins handle it  
+- Org users don't need to install—admins handle it  
 
 ### 🛠️ Build Your Own:
 - Create custom Copilot Extensions for your personal account  
@@ -541,14 +541,14 @@ If you're flying solo (not in an org plan), you’ve got full control over your 
 - Review for syntax, logic, and architecture fit  
 
 ### 🤖 Non-Code Qs:
-- Copilot Chat isn’t built for general knowledge  
+- Copilot Chat isn't built for general knowledge  
 - Might give weird or wrong answers  
 
 ---
 
 ## 🧠 TL;DR
 
-You’ve got the power to shape your Copilot experience.  
+You've got the power to shape your Copilot experience.  
 Toggle features, manage privacy, install extensions, and stay smart about what Copilot generates.  
 Use it like a pro, test everything, and keep your code clean. 💻🔥
 
@@ -560,7 +560,7 @@ Use it like a pro, test everything, and keep your code clean. 💻🔥
 
 GitHub Copilot is like your coding BFF. It watches what you type and throws in smart code suggestions — kinda like autocomplete but way smarter.
 
-You’ll get suggestions when you:
+You'll get suggestions when you:
 - Type part of a code line 💻
 - Write a comment 🗯️
 - Leave a blank line ⬜
@@ -569,23 +569,23 @@ You’ll get suggestions when you:
 
 ### ⚡ Speed Boost for Devs
 
-Say you’re writing a C# method called `addInt` to add two numbers. Start typing and boom 💥 — Copilot finishes it for you.
+Say you're writing a C# method called `addInt` to add two numbers. Start typing and boom 💥 — Copilot finishes it for you.
 
 ![Copilot suggestion](assets/autocomplete-add-numbers.png)
 
-No syntax colors = Copilot’s suggestion. Hit `Tab` to accept.  
-Hit `Esc` to say “nah.”
+No syntax colors = Copilot's suggestion. Hit `Tab` to accept.  
+Hit `Esc` to say "nah."
 ![accept](assets/autocomplete-accept-tab.png)
 ---
 
 ### 🧠 Smarter Than It Looks
 
-Let’s level up. You want a method that adds only prime numbers from a list. Start typing `addPrimeNumbersInNumericList` and Copilot’s got your back.
+Let's level up. You want a method that adds only prime numbers from a list. Start typing `addPrimeNumbersInNumericList` and Copilot's got your back.
 
 ![numeric list](assets/autocomplete-add-numeric-list.png)
 
 Looks good? Hit `Tab`.  
-But wait — `isPrime` is red ❌. It’s missing.
+But wait — `isPrime` is red ❌. It's missing.
 
 ![is primte](assets/autocomplete-isprime-issue.png)
 
@@ -597,7 +597,7 @@ Copilot knows best practices. It suggests you write `isPrime` separately.
 
 ### 🛠️ Managing Suggestions
 
-Hover over a suggestion and you’ll see:
+Hover over a suggestion and you'll see:
 - ✅ Accept (or press `Tab`)
 - 🧩 Accept Word (`Ctrl + >`)
 - 🔄 View others (`Alt + ]` or `Alt + [`)
@@ -649,7 +649,7 @@ Press Ctrl + Enter or open the More Actions menu → Open Completions Panel.
 
 ![multiple options](assets/autocomplete-view-multiple-options-1.png)
 
-You’ll see up to 10 options. Pick your fave or close the tab to reject all.
+You'll see up to 10 options. Pick your fave or close the tab to reject all.
 
 🧾 TL;DR
 Copilot helps you code faster and smarter:
@@ -666,7 +666,7 @@ Open the Suggestions tab for more options.
 
 ## 💬 What Is It?
 
-GitHub Copilot Chat is built into **VS Code** and helps you code smarter, faster, and with less stress. It’s like having a coding buddy who *never sleeps* 😎.
+GitHub Copilot Chat is built into **VS Code** and helps you code smarter, faster, and with less stress. It's like having a coding buddy who *never sleeps* 😎.
 
 ---
 
@@ -682,7 +682,7 @@ GitHub Copilot Chat is built into **VS Code** and helps you code smarter, faster
 ## 🧩 What It Can Do
 
 ### 📚 Explain & Document Code  
-Highlight code ➡️ Copilot tells you what it does in plain English. Great for team collabs or showing non-tech folks what’s up.
+Highlight code ➡️ Copilot tells you what it does in plain English. Great for team collabs or showing non-tech folks what's up.
 
 ### ❓ Answer Coding Questions  
 Stuck? Ask Copilot. It replies with code or easy-to-read answers.
@@ -713,7 +713,7 @@ Copilot helps you level up your code:
 
 ## ⚠️ Heads-Up
 
-Copilot’s smart, but not perfect. Always double-check its answers before using them in your project.
+Copilot's smart, but not perfect. Always double-check its answers before using them in your project.
 
 ---
 
@@ -732,7 +732,7 @@ Powered by AI + machine learning = smarter dev life 💻✨
 
 ---
 
-## 🖥️ What’s the Chat View?
+## 🖥️ What's the Chat View?
 
 The Chat View in **VS Code** is where you chat with your AI coding buddy.  
 It lives in the **Secondary Side Bar** (right side of the window).
@@ -825,7 +825,7 @@ When Copilot gives you code:
 
 💡 IntelliSense might work in code blocks too!
 
-If it’s a shell command:
+If it's a shell command:
 - Click **Insert into Terminal** (Ctrl+Alt+Enter)
 
 ---
@@ -921,7 +921,7 @@ Now you need to **remove duplicates**. Instead of rewriting everything:
 
 1. Highlight the code  
 2. Hit Ctrl + I  
-3. Ask: “Update this code to remove duplicates”  
+3. Ask: "Update this code to remove duplicates"  
 4. Review → Accept or Rerun 🔁  
 5. Not happy? Add more context or hit Discard ❌
 
