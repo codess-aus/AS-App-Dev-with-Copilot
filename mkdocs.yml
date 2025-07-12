@@ -1,0 +1,64 @@
+site_name: AS App Development with Copilot
+site_description: AI Development Tools - GitHub, OpenAI & Microsoft
+site_author: codess-aus
+site_url: https://codess-aus.github.io/AS-App-Dev-with-Copilot/
+
+repo_name: codess-aus/AS-App-Dev-with-Copilot
+repo_url: https://github.com/codess-aus/AS-App-Dev-with-Copilot
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+nav:
+  - Introduction: 00-intro.md
+  - Generate Documentation: 01-gendocs.md
+  - Develop Code: 02-devcode.md
+  - Unit Tests: 03-unittests.md
+  - Improve Code: 04-improvecode.md
+
+plugins:
+  - search
+  - glightbox
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codess-aus/AS-App-Dev-with-Copilot

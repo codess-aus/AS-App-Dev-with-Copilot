@@ -571,27 +571,27 @@ You’ll get suggestions when you:
 
 Say you’re writing a C# method called `addInt` to add two numbers. Start typing and boom 💥 — Copilot finishes it for you.
 
-![Copilot suggestion](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-add-numbers.png)
+![Copilot suggestion](assets/autocomplete-add-numbers.png)
 
 No syntax colors = Copilot’s suggestion. Hit `Tab` to accept.  
 Hit `Esc` to say “nah.”
-![accept](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-tab.png)
+![accept](assets/autocomplete-accept-tab.png)
 ---
 
 ### 🧠 Smarter Than It Looks
 
 Let’s level up. You want a method that adds only prime numbers from a list. Start typing `addPrimeNumbersInNumericList` and Copilot’s got your back.
 
-![numeric list](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-add-numeric-list.png)
+![numeric list](assets/autocomplete-add-numeric-list.png)
 
 Looks good? Hit `Tab`.  
 But wait — `isPrime` is red ❌. It’s missing.
 
-![is primte](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-isprime-issue.png)
+![is primte](assets/autocomplete-isprime-issue.png)
 
 Copilot knows best practices. It suggests you write `isPrime` separately.
 
-![is primte](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-isprime-suggestion.png)
+![is primte](assets/autocomplete-isprime-suggestion.png)
 
 ---
 
@@ -607,9 +607,9 @@ Want more control? Click `...` for:
 - 📌 Always Show Toolbar
 - 🧭 Open Completions Panel
 
-![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-1.png)
-![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-2.png)
-![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-4.png)
+![Accept options](assets/autocomplete-accept-options-1.png)
+![Accept options](assets/autocomplete-accept-options-2.png)
+![Accept options](assets/autocomplete-accept-options-4.png)
 ---
 
 ### 💬 Comments = Code
@@ -623,31 +623,31 @@ Copilot finishes the comment and starts generating code.
 ```
 
 When you start entering the comment, GitHub Copilot suggests an autocompletion that completes the comment for you.
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-1.png)
+![comment code](assets/autocomplete-comment-code-1.png)
 
 Accept each line as it appears.
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-2.png)
+![comment code](assets/autocomplete-comment-code-2.png)
 
 When you create a new code line after the comment, GitHub Copilot begins generating a code snippet based on the comment and your existing code.
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-3.png)
+![comment code](assets/autocomplete-comment-code-3.png)
 
 Accept each of the suggestions as they appear.
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-4.png)
+![comment code](assets/autocomplete-comment-code-4.png)
 
 If GitHub Copilot isn't done, it generates another suggestion for you to accept.
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-5.png)
+![comment code](assets/autocomplete-comment-code-5.png)
 
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-6.png)
+![comment code](assets/autocomplete-comment-code-6.png)
 
 If you enter a new code line after the code snippet is complete, GitHub Copilot generates another autocomplete suggestions based on the requirements of your code project
-![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-7.png)
+![comment code](assets/autocomplete-comment-code-7.png)
 
 
 🧭 Explore More Suggestions
 Not vibing with the first suggestion?
 Press Ctrl + Enter or open the More Actions menu → Open Completions Panel.
 
-![multiple options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-view-multiple-options-1.png)
+![multiple options](assets/autocomplete-view-multiple-options-1.png)
 
 You’ll see up to 10 options. Pick your fave or close the tab to reject all.
 
@@ -737,7 +737,7 @@ Powered by AI + machine learning = smarter dev life 💻✨
 The Chat View in **VS Code** is where you chat with your AI coding buddy.  
 It lives in the **Secondary Side Bar** (right side of the window).
 
-![Chat view](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/github-copilot-chat-view-interface.png)
+![Chat view](assets/github-copilot-chat-view-interface.png)
 
 ### 🧭 Layout:
 - 🔝 Toolbar at the top  
@@ -811,10 +811,10 @@ Copilot replies with:
 - Helpful info
 
 To apply a code block to your codebase, hover over the code block and select the Apply in Editor button. Copilot tries to apply the proposed changes to your existing code.
-![Code block](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/copilot-chat-view-code-block-actions.png)
+![Code block](assets/copilot-chat-view-code-block-actions.png)
 
 If a code block contains a shell command, you can run it directly in the integrated terminal with the Insert into Terminal (Ctrl+Alt+Enter) action.
-![Run in terminal](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/copilot-chat-view-run-in-terminal.png)
+![Run in terminal](assets/copilot-chat-view-run-in-terminal.png)
 
 ### 🧠 Smart Code Suggestions
 
@@ -838,7 +838,7 @@ Copilot shows:
 - Updated files
 - Options to **Keep** or **Undo**
 
-![Edit mode](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/github-copilot-edit-mode-updated-files.png)
+![Edit mode](assets/github-copilot-edit-mode-updated-files.png)
 
 You can:
 - Scroll through changes
@@ -846,7 +846,7 @@ You can:
 - Revert with **Undo Last Edit**
 - Redo with **Redo Last Edit**
 
-![Revert](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/github-copilot-chat-view-undo-redo-edits.png)
+![Revert](assets/github-copilot-chat-view-undo-redo-edits.png)
 
 ---
 
@@ -862,7 +862,7 @@ It uses tools to:
 
 ### ✅ Confirm Before Running
 
-![Tool Confirmation](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/f84a2fd23dc2a923b349546e6806ec5b555edf61/assets/github-copilot-agent-mode-tool-confirmation.png)
+![Tool Confirmation](assets/github-copilot-agent-mode-tool-confirmation.png)
 
 Before running tools or commands:
 - Copilot asks for permission
@@ -897,11 +897,11 @@ Ask questions *right inside* your code editor. No switching tabs. No distraction
 - ⌨️ Shortcut: Ctrl + I  
 - 🖱️ Right-click → Copilot → Editor Inline Chat
 
-![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-1.png)
+![Inline Chat](assets/inline-chat-1.png)
 
 You can use an inline chat session to ask Copilot questions as you write or iterate your code.
 When you open an inline chat session, the following interface is presented in the Editor.
-![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-2.png)
+![Inline Chat](assets/inline-chat-2.png)
 
 
 ### 💡 Use Case:
@@ -925,14 +925,14 @@ Now you need to **remove duplicates**. Instead of rewriting everything:
 4. Review → Accept or Rerun 🔁  
 5. Not happy? Add more context or hit Discard ❌
 
-![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-3.png)
+![Inline Chat](assets/inline-chat-3.png)
 
 ---
 
 ## ⚡ Smart Actions: No Prompt Needed
 
 Right-click a code snippet → Choose a smart action from the Copilot menu.
-![Smart actions](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/smart-actions-1.png)
+![Smart actions](assets/smart-actions-1.png)
 
 ### 🧠 Available Actions:
 - **Explain** – What does this code do?  
@@ -952,7 +952,7 @@ Copilot suggests:
 But wait! Your method expects a `List<int>` 😬  
 Use **Fix** smart action → Copilot adds `.ToList()` to fix it.
 
-![Fix Smart Action](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/smart-actions-2.png)
+![Fix Smart Action](assets/smart-actions-2.png)
 
 ```csharp
 HashSet<int> numbers = new HashSet<int>();
@@ -976,7 +976,7 @@ Need help right now? Use Quick Chat for instant convos with Copilot.
 - ⌨️ Ctrl + Shift + Alt + L
 - 🧭 Copilot Chat menu → Quick Chat
 
-![Quick chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/quick-chat-1.png)
+![Quick chat](assets/quick-chat-1.png)
 Great for:
 
 - Debugging
