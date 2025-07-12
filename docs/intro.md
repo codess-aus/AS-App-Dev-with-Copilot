@@ -106,3 +106,143 @@ Your AI coding sidekick. Writes code, explains it, fixes bugs, and even makes te
 ## 🧠 TL;DR
 
 AI tools = dev superpowers. Whether you’re a pro or just starting, these tools make coding faster, smarter, and way more fun. Pick your tool, level up, and let AI do the heavy lifting. 💪
+
+# 🤖💥 GitHub Copilot Plans: Which One’s Your Coding Sidekick?
+
+## 🚀 Why Copilot Is a Game-Changer
+
+GitHub Copilot = your AI coding buddy. It vibes with all the top languages and makes devs way more productive. Microsoft + GitHub did the research—Copilot boosts your real-world coding flow big time.
+
+Works with:
+- VS Code  
+- Visual Studio  
+- Vim/Neovim  
+- JetBrains IDEs  
+
+---
+
+## 💸 Copilot Plans Breakdown
+
+### 🆓 **Copilot Free**
+- For solo devs not in orgs
+- Try basic AI coding help
+- Limited features
+
+### 💼 **Copilot Pro**
+- Unlimited completions  
+- Premium models in Copilot Chat  
+- Monthly premium request allowance  
+- Free for verified students, teachers, OSS maintainers
+
+### 💎 **Copilot Pro+**
+- Everything in Pro  
+- More premium requests  
+- Full access to all models  
+- For AI power users
+
+### 🧑‍💻 **Copilot Business**
+- For orgs on GitHub Free/Team or Enterprise Cloud  
+- Centralized management + policy control
+
+### 🏢 **Copilot Enterprise**
+- For GitHub Enterprise Cloud users  
+- All Business features + enterprise-grade extras  
+- Assign plans org-wide
+
+---
+
+## 📊 Feature Comparison Tables
+
+### 💰 Pricing
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| Premium requests | 50/mo | 300/mo | 1500/mo | 300/user/mo | 1000/user/mo |
+| Buy more requests | ❌ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+### 🧠 Agents
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| Agent mode in VS Code | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Code review | Basic only | ✅ | ✅ | ✅ | ✅ |
+| Extensions | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+### 💬 Chat
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| Chat in IDEs | 50 msgs/mo | Unlimited | Unlimited | Unlimited | Unlimited |
+| Inline chat | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Slash commands | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Chat in GitHub Mobile | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Chat in GitHub | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Chat in Windows Terminal | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Higher model limits | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Chat skills in IDEs | ❌ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+### 🧬 Models
+
+| Model | Free | Pro | Pro+ | Business | Enterprise |
+|-------|------|-----|------|----------|------------|
+| Claude 3.5 Sonnet | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Claude 3.7 Sonnet | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Claude 3.7 Thinking | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Gemini 2.0 Flash | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gemini 2.5 Pro | ❌ | ✅ | ✅ | ✅ | ✅ |
+| GPT-4o | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GPT-4.1 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GPT-4.5 | ❌ | ❌ | ✅ | ❌ | ✅ |
+| o1 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| o3 | ❌ | ❌ | ✅ | ❌ | ✅ |
+| o3-mini | ✅ | ✅ | ✅ | ✅ | ✅ |
+| o4-mini | ❌ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+### 🧑‍💻 Code Completion
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| Real-time suggestions | 2000/mo | ✅ | ✅ | ✅ | ✅ |
+| Next edit suggestions | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+### 🎨 Customization
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| Repo & personal instructions | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Org instructions (preview) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Prompt files | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Private extensions | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Code review guidelines | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Block public code suggestions | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Exclude files | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Org-wide policy mgmt | ❌ | ❌ | ✅ | ✅ | ✅ |
+
+---
+
+### 🧩 Other Features
+
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|--------|------|-----|------|----------|------------|
+| PR summaries | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Audit logs | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Knowledge bases | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Fine-tune LLM (preview) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Copilot in CLI | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
+## 🧠 TL;DR
+
+GitHub Copilot’s got a plan for everyone—from solo devs to mega enterprises. Pick the one that fits your vibe, your team, and your coding goals. 💻✨
+
