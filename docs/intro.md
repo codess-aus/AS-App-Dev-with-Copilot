@@ -554,10 +554,6 @@ Use it like a pro, test everything, and keep your code clean. 💻🔥
 
 ## 🚀 GitHub Copilot: Code Completion Cheat Sheet
 
-**Status:** ✅ Completed  
-**XP:** 💯 100  
-**Time:** ⏱️ 8 mins  
-
 ---
 
 ### 🔮 What Copilot Does
@@ -575,25 +571,27 @@ You’ll get suggestions when you:
 
 Say you’re writing a C# method called `addInt` to add two numbers. Start typing and boom 💥 — Copilot finishes it for you.
 
-> 🖼️ *[Insert screenshot of Copilot suggesting code]*
+![Copilot suggestion](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-add-numbers.png)
 
 No syntax colors = Copilot’s suggestion. Hit `Tab` to accept.  
 Hit `Esc` to say “nah.”
-
+![accept](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-tab.png)
 ---
 
 ### 🧠 Smarter Than It Looks
 
 Let’s level up. You want a method that adds only prime numbers from a list. Start typing `addPrimeNumbersInNumericList` and Copilot’s got your back.
 
-> 🖼️ *[Insert screenshot of prime number method suggestion]*
+![numeric list](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-add-numeric-list.png)
 
 Looks good? Hit `Tab`.  
 But wait — `isPrime` is red ❌. It’s missing.
 
+![is primte](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-isprime-issue.png)
+
 Copilot knows best practices. It suggests you write `isPrime` separately.
 
-> 🖼️ *[Insert screenshot of isPrime method suggestion]*
+![is primte](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-isprime-suggestion.png)
 
 ---
 
@@ -609,7 +607,9 @@ Want more control? Click `...` for:
 - 📌 Always Show Toolbar
 - 🧭 Open Completions Panel
 
-> 🖼️ *[Insert screenshots of toolbar options]*
+![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-1.png)
+![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-2.png)
+![Accept options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-accept-options-4.png)
 ---
 
 ### 💬 Comments = Code
@@ -622,16 +622,32 @@ Write something like:
 Copilot finishes the comment and starts generating code.
 ```
 
-🖼️ [Insert screenshots of comment-driven code generation]
+When you start entering the comment, GitHub Copilot suggests an autocompletion that completes the comment for you.
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-1.png)
 
 Accept each line as it appears.
-Copilot even suggests calling your method with the list.
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-2.png)
+
+When you create a new code line after the comment, GitHub Copilot begins generating a code snippet based on the comment and your existing code.
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-3.png)
+
+Accept each of the suggestions as they appear.
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-4.png)
+
+If GitHub Copilot isn't done, it generates another suggestion for you to accept.
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-5.png)
+
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-6.png)
+
+If you enter a new code line after the code snippet is complete, GitHub Copilot generates another autocomplete suggestions based on the requirements of your code project
+![comment code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-comment-code-7.png)
+
 
 🧭 Explore More Suggestions
 Not vibing with the first suggestion?
 Press Ctrl + Enter or open the More Actions menu → Open Completions Panel.
 
-🖼️ [Insert screenshot of Suggestions tab]
+![multiple options](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/b602554366f49cdc1cc8462387f844ef1252898c/assets/autocomplete-view-multiple-options-1.png)
 
 You’ll see up to 10 options. Pick your fave or close the tab to reject all.
 
