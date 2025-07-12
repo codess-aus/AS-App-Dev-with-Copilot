@@ -883,3 +883,113 @@ Before running tools or commands:
 - Agent Mode = full-on AI automation
 
 Copilot Chat = smarter coding, less stress 💻✨
+
+# 💬 Copilot Chat: Inline, Smart, & Quick Modes
+
+---
+
+## ✍️ Inline Chat: Code While You Chat
+
+Ask questions *right inside* your code editor. No switching tabs. No distractions.
+
+### 🔓 How to open:
+- 🧭 Copilot Chat menu → Editor Inline Chat  
+- ⌨️ Shortcut: Ctrl + I  
+- 🖱️ Right-click → Copilot → Editor Inline Chat
+
+![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-1.png)
+
+You can use an inline chat session to ask Copilot questions as you write or iterate your code.
+When you open an inline chat session, the following interface is presented in the Editor.
+![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-2.png)
+
+
+### 💡 Use Case:
+You're coding a C# app that makes a list of 100 random numbers.  
+
+```csharp
+// create a list of 100 random number between 1 and 1000
+List<int> numbers = new List<int>();
+Random random = new Random();
+for (int i = 0; i < 100; i++)
+{
+    numbers.Add(random.Next(1, 1000));
+}
+```
+
+Now you need to **remove duplicates**. Instead of rewriting everything:
+
+1. Highlight the code  
+2. Hit Ctrl + I  
+3. Ask: “Update this code to remove duplicates”  
+4. Review → Accept or Rerun 🔁  
+5. Not happy? Add more context or hit Discard ❌
+
+![Inline Chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/inline-chat-3.png)
+
+---
+
+## ⚡ Smart Actions: No Prompt Needed
+
+Right-click a code snippet → Choose a smart action from the Copilot menu.
+![Smart actions](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/smart-actions-1.png)
+
+### 🧠 Available Actions:
+- **Explain** – What does this code do?  
+- **Fix** – Got bugs? Copilot suggests fixes.  
+- **Review & Comment** – Get feedback + best practices.  
+- **Generate Docs** – Auto-doc your code.  
+- **Generate Tests** – Create unit tests instantly.
+
+### 🧪 Example:
+You used inline chat to make a list of unique numbers.  
+Now use **Review This** to improve it:
+
+Copilot suggests:
+- Use `HashSet<int>` for faster lookups  
+- Pre-size the list to avoid resizing
+
+But wait! Your method expects a `List<int>` 😬  
+Use **Fix** smart action → Copilot adds `.ToList()` to fix it.
+
+![Fix Smart Action](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/smart-actions-2.png)
+
+```csharp
+HashSet<int> numbers = new HashSet<int>();
+Random random = new Random();
+while (numbers.Count < 100)
+{
+    int randomNumber = random.Next(1, 1000);
+    if (!numbers.Contains(randomNumber))
+    {
+        numbers.Add(randomNumber);
+    }
+}
+
+int sum = addPrimeNumbersInNumericList(numbers.ToList());
+Console.WriteLine(sum);
+```
+## 💨 Quick Chat: Fast & Friendly AI Help
+Need help right now? Use Quick Chat for instant convos with Copilot.
+
+- 🔓 How to open:
+- ⌨️ Ctrl + Shift + Alt + L
+- 🧭 Copilot Chat menu → Quick Chat
+
+![Quick chat](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/3dc6a1dbcae12a6989d36c5d62a582127e074ba3/assets/quick-chat-1.png)
+Great for:
+
+- Debugging
+- Brainstorming
+- Understanding code
+
+Feels like chatting with a dev buddy 👯‍♂️
+
+## 📝 TL;DR Summary
+GitHub Copilot Chat gives you 3 awesome ways to interact:
+
+- ✍️ Inline Chat – Ask while coding
+- ⚡ Smart Actions – Fix, explain, review, test, doc
+- 💨 Quick Chat – Fast convos with your AI dev buddy
+
+Smarter coding. Less typing. More building 💻🚀
