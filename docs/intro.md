@@ -411,4 +411,59 @@ Solo devs: pick a plan, install, tweak settings.
 Orgs: subscribe, set policies, roll it out smart.  
 Copilot’s ready to code with you. 💻🔥
 
+# ⚙️🧠 GitHub Copilot in VS Code: Setup & Settings
+
+---
+
+## 🚀 What’s the Deal?
+
+Copilot plugs straight into VS Code, Visual Studio, and other IDEs. In VS Code, it uses **two extensions**:
+
+- **GitHub Copilot**: Handles code completions + comment-based suggestions  
+- **GitHub Copilot Chat**: Lets you chat with your AI coding buddy  
+
+---
+
+## 🔧 Install Copilot in VS Code
+
+No manual install needed—Copilot extensions auto-install with default settings.
+
+### 🛠️ Steps:
+1. Open VS Code (make sure it’s updated)
+2. Hover over the Copilot icon in the Status Bar → click **Set up Copilot**
+
+![status bar](assets/setup-copilot-status-bar.png)
+
+3. Hit **Sign in** to log into GitHub  
+   - Already signed in? You’ll see **Use Copilot** instead  
+4. Follow the prompts to authenticate + authorize  
+5. Boom! Extensions install in the background  
+
+📍 You can find them in the **Extensions view** in VS Code.
+
+![Extensions](assets/github-copilot-extensions-vscode.png)
+---
+
+## ⚙️ Configure Copilot Settings
+
+Customize how Copilot behaves in VS Code.
+
+### 🧩 Access Settings:
+- Click the ⚙️ **Manage** icon (bottom-left corner)
+- Select **Settings**
+
+### 🔧 Extension Settings:
+- **Copilot Extension**: Manage languages + AI models  
+- **Copilot Chat Extension**: Control chat interactions  
+
+![Extension settings](assets/github-copilot-extension-settings.png)
+![Extensions Chat](assets/github-copilot-chat-extension-settings.png)
+---
+
+## 🧠 TL;DR
+
+Copilot in VS Code = plug & play.  
+Two extensions, auto-installed.  
+Customize settings to match your coding vibe.  
+Let AI help you code smarter, faster, better. 💻🔥
 
