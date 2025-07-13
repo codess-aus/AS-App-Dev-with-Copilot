@@ -137,7 +137,7 @@ Better:
 Now Copilot knows you want a fresh project with those tools.
 It’ll even show you the folder structure and let you hit “Create Workspace” to build it.
 
-![Folder Structure](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/6f59110863c2d55d0fda42055e415309b228be65/docs/assets/new-slash-command-with-workspace-chat-participant.png)
+![Folder Structure](assets/new-slash-command-with-workspace-chat-participant.png)
 
 🧠 Why It Works
 Slash commands = your intent (what you wanna do)
@@ -240,7 +240,7 @@ The Chat View lives in the right sidebar of VS Code. It’s where you chat with 
 - “@workspace /fix this error”
 - “@vscode how do I disable the minimap?”
 
-![Chat view asking about the Singleton pattern](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/ce47826247950c6a9329e04fb1eb2fd5589d1cd2/docs/assets/explain-chat-view-workspace-explain-singleton-pattern.png)
+![Chat view asking about the Singleton pattern](assets/explain-chat-view-workspace-explain-singleton-pattern.png)
 
 ---
 
@@ -272,7 +272,7 @@ Inline Chat lets you ask questions about specific code without leaving the edito
 - `/explain Why does this throw an error?`
 - `/explain Can LINQ make this cleaner?`
 
-![Inline chat asking about selected code](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/ce47826247950c6a9329e04fb1eb2fd5589d1cd2/docs/assets/explain-inline-chat-explain-selected.png)
+![Inline chat asking about selected code](assets/explain-inline-chat-explain-selected.png)
 
 ---
 
@@ -290,7 +290,7 @@ Inline Chat lets you ask questions about specific code without leaving the edito
 Too lazy to type? Just right-click code and hit **Copilot → Explain**.  
 Copilot will break it down in the Chat View.
 
-![Explain smart action in context menu](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/ce47826247950c6a9329e04fb1eb2fd5589d1cd2/docs/assets/explain-smart-action-explain.png)
+![Explain smart action in context menu](assets/explain-smart-action-explain.png)
 
 ---
 
@@ -302,7 +302,7 @@ Need a quick answer without saving the convo? Use **Quick Chat**.
 - GitHub Copilot menu → Quick Chat
 - Shortcut: `Ctrl+Shift+Alt+L`
 
-![Quick Chat window](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/ce47826247950c6a9329e04fb1eb2fd5589d1cd2/docs/assets/explain-quick-chat-explain-issue.png)
+![Quick Chat window](assets/explain-quick-chat-explain-issue.png)
 
 ---
 
