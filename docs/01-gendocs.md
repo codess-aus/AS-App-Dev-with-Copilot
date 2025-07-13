@@ -72,4 +72,96 @@ Use chat, smart actions, and inline tools to level up your dev game in VS Code.
 
 ---
 
+# 🔍 GitHub Copilot Prompts & Keywords: Level Up Your Chat Game!
+
+GitHub Copilot Chat is like texting your super-smart coding buddy. It reads your messages (aka prompts) and replies with code help, docs, fixes, and more. But to get 🔥 answers, you gotta know how to talk to it right.
+
+---
+
+## 🧠 Prompt Power-Up Tips
+
+Want better replies? Here's how to write top-tier prompts:
+
+- **Be Clear + Specific:**  
+  Instead of “How do I use this?”, try “Can you explain how `calculateTotal` works in `shoppingCart.js`?”
+
+- **Break It Down:**  
+  Long prompt? Use short sentences. Start with your goal, then add details.
+
+- **Chunk It:**  
+  Big ask? Split it into smaller parts. Like chatting with a human—set the scene, then dive into the details.
+
+---
+
+## 🧩 Use Keywords to Boost Your Prompts
+
+Copilot Chat understands natural language *and* special keywords. These help it know exactly what you want.
+
+### 👥 Chat Participants (`@`)
+These are like expert teammates. Add them to your prompt with `@`:
+
+- `@workspace`: Knows your codebase.
+- `@vscode`: Knows VS Code features.
+- `@terminal`: Knows terminal commands.
+- `@github`: Searches GitHub + web stuff.
+
+Example:  
+`@workspace how can I validate a date?`
+
+### ⛳ Slash Commands (`/`)
+These tell Copilot what you’re trying to do:
+
+- `/help`: Get help.
+- `/doc`: Write docs.
+- `/clear`: Start fresh.
+- `/explain`: Explain code.
+- `/tests`: Make unit tests.
+- `/fix`: Suggest a fix.
+- `/new`: Create a new project.
+- `/newNotebook`: Make a Jupyter Notebook.
+
+Example:  
+`@workspace /explain` → Copilot explains your whole workspace.
+
+### 🧠 Chat Variables (`#`)
+These give Copilot extra context. Use `#` to reference stuff:
+
+- `#editor`: Code in the editor.
+- `#selection`: Highlighted code.
+- `#filename`: Add a file or folder.
+- `#codebase`: Workspace content.
+- `#terminalSelection`: Selected terminal text.
+- `#terminalLastCommand`: Last terminal command.
+
+Example:  
+`Which sorting algorithm is used in #selection?`
+
+---
+
+## 🤔 @workspace vs #codebase
+
+Both help Copilot understand your whole project, but they work differently:
+
+- `@workspace`:  
+  - Acts like a coding expert.  
+  - Answers based on your codebase.  
+  - Only works in Ask Mode.
+
+- `#codebase`:  
+  - Adds code context to your prompt.  
+  - Works in Ask, Edit, and Agent modes.  
+  - More flexible + tool-friendly.
+
+GitHub recommends using `#codebase` for max flexibility.
+
+---
+
+## 🎯 TL;DR
+
+To get 🔥 responses from GitHub Copilot Chat:
+- Write clear, specific prompts.
+- Break big asks into smaller chunks.
+- Use `@participants`, `/commands`, and `#variables` to guide Copilot.
+
+Now go chat like a coding legend! 💬💻✨
 
