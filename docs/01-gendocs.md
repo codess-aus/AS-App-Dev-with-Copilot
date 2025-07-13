@@ -109,6 +109,45 @@ Example:
 `@workspace how can I validate a date?`
 
 ### ⛳ Slash Commands (`/`)
+
+Slash commands tell Copilot *exactly* what you want.  
+Wanna learn about code? `/explain`  
+Need a fix? `/fix`  
+Writing tests? `/tests`  
+Just drop the right command and Copilot tunes its reply to match your vibe.
+
+---
+
+### 💡 Pro Tip: Combine with Chat Participants
+
+Slash commands + chat participants = 🔥 results.
+
+Example:
+```plaintext
+Create a new workspace with Node.js, Express, Pug, and TypeScript.
+```
+Cool, but kinda vague.
+
+Better:
+
+```Plain Text
+@workspace /new Node.js Express Pug TypeScript
+```
+
+Now Copilot knows you want a fresh project with those tools.
+It’ll even show you the folder structure and let you hit “Create Workspace” to build it.
+
+![Folder Structure](https://github.com/codess-aus/AS-App-Dev-with-Copilot/blob/6f59110863c2d55d0fda42055e415309b228be65/docs/assets/new-slash-command-with-workspace-chat-participant.png)
+
+🧠 Why It Works
+Slash commands = your intent (what you wanna do)
+Chat participants = your context (where you're doing it)
+Together, they help Copilot give you smarter, faster, and more useful answers.
+
+🚀 Try These Combos
+
+Use them like shortcuts to level up your dev game! 🧑‍💻⚡
+
 These tell Copilot what you’re trying to do:
 
 - `/help`: Get help.
@@ -122,6 +161,11 @@ These tell Copilot what you’re trying to do:
 
 Example:  
 `@workspace /explain` → Copilot explains your whole workspace.
+`@workspace /fix (or /fix)`: Propose a fix for the problems in the selected code.
+`@workspace /tests (or /tests)`: Generate unit tests for the selected code.
+`@vscode /api (or /api)`: Ask about Visual Studio Code extension development.
+`@workspace /new (or /new)`: Scaffold code for a new workspace.
+`@workspace /newNotebook` (or /newNotebook): Create a new Jupyter Notebook.
 
 ### 🧠 Chat Variables (`#`)
 These give Copilot extra context. Use `#` to reference stuff:
