@@ -318,3 +318,262 @@ GitHub Copilot gives you **4 awesome ways** to analyze and explain code:
 | ⚡ Quick Chat  | Fast answers, no chat history     |
 
 Use them to level up your code game, learn faster, and debug smarter. 💡💻🔥
+
+# 📚 Generate Project Docs with GitHub Copilot
+
+Project docs = your project's story. They explain what it does, why it matters, and how to use it. GitHub Copilot makes writing docs easy by analyzing your whole project and helping you build files like `README.md`, `UsageExamples.md`, and `ChangeLog.md`.
+
+---
+
+## 🧠 Why Use Copilot for Docs?
+
+Copilot can:
+- Understand your project structure
+- Summarize components + how they work together
+- Generate docs in markdown format
+- Link files and keep everything consistent
+
+---
+
+## 🛠️ Modes for Doc Creation
+
+Copilot has **three modes** for generating docs:
+
+| Mode     | Best For                          |
+|----------|-----------------------------------|
+| 🗣️ Ask    | Asking questions, building context |
+| ✍️ Edit   | Updating specific files            |
+| 🤖 Agent  | Full project-wide doc generation   |
+
+⚠️ *Heads-up:* Agent mode may use **premium requests** depending on task complexity.
+
+---
+
+## 📋 What Goes in a README?
+
+Here’s a solid structure:
+
+- **Project Title**
+- **Description**
+- **Table of Contents**
+- **Installation**
+- **Usage**
+- **Features**
+- **Configuration**
+- **Contributing**
+- **License**
+- **Credits**
+- **Contact**
+- **Changelog**
+
+---
+
+### 🗣️ Ask Mode: Chat Your Way to Docs
+
+1. **Figure out what you need**  
+   Decide which sections to include and what context you’ll need.
+
+2. **Open Chat View in Ask Mode**  
+   Use `Ctrl+Alt+I` or click the Copilot icon.
+
+3. **Add Context**  
+   Drag files into Chat View or use the **Add Context** button.
+
+4. **Start Prompting**  
+   Example:  
+   ```
+   @workspace /explain I need help creating a README file for this repo. Format: markdown. Sections: Title, Description, TOC, Installation, Usage, Features, Configuration, License.
+
+
+5. **Review + Refine**  
+Tweak the output with follow-up prompts.
+
+6. **Save It**  
+Create `README.md` and paste in the content.
+
+---
+
+## ✍️ Edit Mode: Tweak Specific Files
+
+1. **Open Chat View in Edit Mode**
+
+2. **Add Context**  
+Use `#codebase` or drag files into Chat View.
+
+3. **Prompt It**  
+Example:  
+Create a README.md file in the root folder. Format: markdown. Include sections: Title, Description, TOC, Installation, Usage, Features, Configuration, License.
+
+
+4. **Review + Save**  
+Accept or tweak the file as needed.
+
+![Edit mode updating README.md](assets/github-copilot-edit-mode-updated-files.png)
+
+---
+
+## 🤖 Agent Mode: Go Big with Docs
+
+1. **Open Chat View in Agent Mode**
+
+2. **Add Context**  
+Use `#codebase` and drag in files/folders.
+
+3. **Prompt It**  
+Example:  
+Generate project docs: README.md, UsageExamples.md, ChangeLog.md. Link files, cross-reference classes/methods, ensure consistency.
+
+
+4. **Review + Save**  
+Accept or refine the generated docs.
+
+---
+
+### 🧠 Agent Mode Superpowers
+
+- 🔗 Cross-file linking
+- 🧩 Full project analysis
+- 📊 Diagrams + tables
+- 🧪 Usage examples
+- 📦 Batch doc generation
+
+Perfect for big projects with lots of moving parts.
+
+---
+
+## 🎯 TL;DR
+
+Copilot helps you write awesome project docs in three ways:
+
+| Mode     | Use It For                          |
+|----------|-------------------------------------|
+| 🗣️ Ask    | Brainstorming + Q&A                 |
+| ✍️ Edit   | Updating specific files             |
+| 🤖 Agent  | Full doc generation + linking       |
+
+Pick your mode, add context, and let Copilot do the heavy lifting. 💪📄✨
+
+## 📝 Generate Inline Code Documentation Using GitHub Copilot
+
+**Status:** ✅ Completed  
+**XP Earned:** 💯 100 XP  
+**Time Spent:** ⏱️ 9 minutes  
+
+Proper documentation makes your code easier to read, maintain, and collaborate on. GitHub Copilot Chat helps you document code quickly, accurately, and consistently.
+
+---
+
+### 🔧 Features for Inline Documentation
+
+You can use these GitHub Copilot features to create inline code documentation:
+
+- **Chat View**: Available in Ask, Edit, and Agent modes.
+- **Inline Chat**: Document specific code (classes, methods, blocks) directly in the editor.
+- **Smart Actions**: Use the **Generate Docs** smart action to document selected code without writing a prompt.
+
+---
+
+### 💬 Chat View: Ask Mode
+
+Use Ask mode to evaluate code and suggest inline documentation.
+
+1. Open Chat View in Ask mode.
+2. Add context (e.g., a markdown file with documentation guidelines).
+3. Enter a prompt like:  
+   ```
+   @workspace /doc Create inline code documentation for the ConsoleApp class.
+
+4. Review the suggested documentation in Chat View.
+
+![Chat view in Ask mode suggesting inline documentation](assets/chat-view-ask-mode-inline-docs-may-2025.png)
+
+5. Hover over the suggestion to see **Apply**, **Insert**, and **Copy** buttons.
+6. Apply the documentation to the code file.
+7. Use arrow keys to navigate suggestions.
+8. Accept, reject, or modify suggestions individually or all at once.
+
+![Inline documentation applied in editor using Ask mode](assets/chat-view-ask-mode-inline-docs-may-2025-editor-keep.png)
+
+---
+
+### ✍️ Chat View: Edit Mode
+
+Use Edit mode to generate documentation for a file, class, or method.
+
+1. Open Chat View in Edit mode.
+2. Add context using the **Add Context** button (e.g., open editor tabs).
+3. Enter a prompt like:  
+Create inline code documentation for the ConsoleApp class. Document the class, its properties, and methods.
+
+*(Note: Edit mode doesn’t support @workspace or /doc)*
+
+4. Review the suggested documentation in the editor.
+
+![Chat view in Edit mode suggesting inline documentation](assets/chat-view-edit-mode-inline-docs-may-2025.png)
+
+5. Navigate through suggestions and accept, reject, or modify them.
+
+---
+
+### 🤖 Chat View: Agent Mode
+
+Use Agent mode for deeper documentation tasks across multiple files.
+
+1. Open Chat View in Agent mode.
+2. Add context (e.g., source code folders).
+3. Enter a prompt like:  
+Create inline code documentation for all C# class files in the specified context. Document the class, properties, and methods. Do not add documentation to JSON, markdown, or other file types. Do not document UnitTest project files in the Test folder. Ensure that the solution builds without errors after the documentation is added.
+
+*(Note: Agent mode doesn’t support @workspace or /doc)*
+
+4. Agent displays status messages as it works.
+
+![Chat view in Agent mode showing status messages](assets/chat-view-agent-mode-inline-docs-may-2025-status.png)
+
+5. Agent may ask for more context or permission to run commands.
+6. Review updated files in the editor.
+
+![Chat view in Agent mode after completing tasks](assets/chat-view-agent-mode-inline-docs-may-2025.png)
+
+7. Accept, reject, or modify suggestions individually or all at once.
+
+---
+
+### ⚡ Generate Docs Smart Action
+
+Use this smart action to document code quickly without writing a prompt.
+
+1. Open the code file.
+2. Select the code to document.
+3. Right-click → Copilot → **Generate Docs**.
+
+![Generate Docs smart action in context menu](assets/smart-action-generate-docs-may-2025.png)
+
+4. Review the suggested documentation in the editor.
+
+![Code documentation suggested by Generate Docs smart action](assets/smart-action-generate-docs-may-2025-accept-updates.png)
+
+5. Accept, reject, or rerun the prompt.
+
+---
+
+### 💬 Inline Chat
+
+Use inline chat to document code directly in the editor.
+
+1. Open the code file.
+2. Select the code to document.
+3. Start inline chat (`Ctrl+I` or Editor Inline Chat).
+4. Enter a prompt like:  
+Document the selected method. List currentState options.
+
+
+![Inline chat session suggesting documentation](assets/inline-chat-inline-docs-may-2025.png)
+
+5. Accept, reject, or rerun the prompt.
+
+---
+
+### ✅ Summary
+
+GitHub Copilot helps you generate inline code documentation fast and accurately. Use Chat View, Inline Chat, and Smart Actions to stay in flow while documenting your code in Visual Studio Code.
